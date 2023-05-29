@@ -1,5 +1,5 @@
 # Sorting-Algorithms
-Implementation of nine (9) sorting algorithms implemented in C++, along with their performance comparison
+Implementation of nine (9) sorting algorithms (in C++), along with their performance comparison using <chrono> library
 
 ## Performance Comparison
 The sorting algorithms have been categorised into Slower and Faster Sorting Algorithms. For Slower Sorting Algorithms, by default, the array size being used is 0.1 Million elements and for Faster Sorting Algorithms, by default, the array size being used is 10 Million elements --> These values can be modified through the ARR_SIZE variable in main.cpp   
