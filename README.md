@@ -6,7 +6,7 @@ The sorting algorithms have been categorised into Slower and Faster Sorting Algo
 There are Special Case Sorting Algorithms as well which are included in the category of Faster Sorting Algorithms. These are Counting Sort, Radix Sort and Bucket Sort.   
 ### Counting Sort
 Counting Sort is suitable for cases when the elements of the array are in a small range ("small" is relative to the array size).  
-Assume the array size to be n, the maximum part in the range of elements (k) should be proportional to n i.e n / 2, or 2 * n or 3 * n BUT definitely NOT n<sup>2</sup> or n<sup>3</sup>   
+Assume the array size to be n, the maximum part in the range of elements (k) should be proportional to n i.e n / 2, or 2n or 3n BUT definitely NOT n<sup>2</sup> or n<sup>3</sup>   
 By default, in the code, the range has been set to 0 to appox. 0.05 Million so that speed of Counting Sort is comparable to other faster algorithms
 ### Radix Sort
 Radix Sort is fast even for the cases when the maximum part in the range of elements (k) is large such as proportional to n<sup>2</sup> or n<sup>3</sup> where n is the array size  
