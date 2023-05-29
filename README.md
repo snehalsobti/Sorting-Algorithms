@@ -1,7 +1,7 @@
 # Sorting-Algorithms
 Implementation of nine (9) sorting algorithms (in C++), along with their performance comparison using chrono library
 
-## Performance Comparison
+## A NOTE about Special Case Algorithms
 The sorting algorithms have been categorised into Slower and Faster Sorting Algorithms. For Slower Sorting Algorithms, by default, the array size being used is 0.1 Million elements and for Faster Sorting Algorithms, by default, the array size being used is 10 Million elements --> These values can be modified through the ARR_SIZE variable in main.cpp   
 There are Special Case Sorting Algorithms as well which are included in the category of Faster Sorting Algorithms. These are Counting Sort, Radix Sort and Bucket Sort.   
 ### Counting Sort
